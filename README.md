@@ -13,13 +13,13 @@ S3 buckets:</br>
  DynamoDB table:</br>
    Medical-record : to store the report from medicalcomprehend.
    
- NOTE:</br>
- 1.Triggers are needed to be created while creating the lambda functions.</br>
-     Audiofile(.wav) input to audio-aws-transcribe bucket triggers aws-transcribe.</br >
-     Json input to file-aws-comprehend bucket triggers aws-comprehend</br >
- 2.IAM roles for the lambda functions will include </br>
-     S3fullaccess</br >
-     Transcribefullaccess</br >
-     Dynamodbfullaccess</br >
-     Comprehendmedicalfullaccess</br >
-     Cloudwatchlogs</br >
+ # NOTE:</br>
+ Triggers are needed to be created while creating the lambda functions.</br>
+     1.Audiofile(.wav) input to audio-aws-transcribe bucket triggers aws-transcribe.</br >
+     2.Json input to file-aws-comprehend bucket triggers aws-comprehend</br >
+ IAM roles for the lambda functions include:</br>
+     1.S3fullaccess</br >
+     2.Transcribefullaccess</br >
+     3.Dynamodbfullaccess</br >
+     4.Comprehendmedicalfullaccess</br >
+     5.Cloudwatchlogs</br >
