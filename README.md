@@ -10,7 +10,7 @@ S3 buckets:</br>
    2.file-aws-comprehend  : this bucket stores the output of aws-transcribe function which triggers aws-comprehend</br>
    3.our-output           : this bucket stores the text output from aws-comprehend</br>
    
- DynamoDB table:
+ DynamoDB table:</br>
    Medical-record : to store the report from medicalcomprehend.
    
    
