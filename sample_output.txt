@@ -1,0 +1,20 @@
+     MedicalAudio2.wav
+
+NAME :  helen jason spring
+DATE :  16th june 19th
+AGE :  38
+
+MEDICAL CONDITION
+ DIAGNOSIS :  pain
+ NEGATION :  bony tenderness
+ SIGN :  bony tenderness
+ SYMPTOM :  pain
+
+ANATOMY
+  DIRECTION :  left
+  SYSTEM_ORGAN_SITE :  foot arch arch foot
+
+TEST AND TREATMENT
+  TREATMENT_NAME :  steroid injection
+
+MEDICATION
