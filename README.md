@@ -14,9 +14,11 @@ S3 buckets:</br>
    Medical-record : to store the report from medicalcomprehend.
    
  # NOTE:</br>
+ 
  Triggers are needed to be created while creating the lambda functions.</br>
      1.Audiofile(.wav) input to audio-aws-transcribe bucket triggers aws-transcribe.</br >
      2.Json input to file-aws-comprehend bucket triggers aws-comprehend</br >
+     
  IAM roles for the lambda functions include:</br>
      1.S3fullaccess</br >
      2.Transcribefullaccess</br >
